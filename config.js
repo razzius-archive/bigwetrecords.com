@@ -29,7 +29,10 @@ config = {
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: process.env.PORT
         },
-        filestorage: false
+        fileStorage: false,
+        privacy: {
+            useUpdateCheck: false
+        }
     },
 
     // ### Development **(default)**
@@ -66,6 +69,10 @@ config = {
         },
         paths: {
             contentPath: path.join(__dirname, '/content/')
+        },
+        fileStorage: false,
+        privacy: {
+            useUpdateCheck: false
         }
     },
 
