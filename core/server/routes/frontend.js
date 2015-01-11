@@ -50,7 +50,8 @@ frontendRoutes = function () {
 
     // Default
     router.get('/page/:page/', frontend.homepage);
-    router.get('/', frontend.homepage);
+    router.get('/blog/', frontend.homepage);
+    router.get('/', frontend.static('frontpage'));
     router.get('*', frontend.single);
 
     return router;

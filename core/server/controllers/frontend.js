@@ -144,6 +144,11 @@ function getActiveThemePaths() {
 }
 
 frontendControllers = {
+    static: function(page) {
+        return function (req, res) {
+            res.render(page);
+        };
+    },
     homepage: function (req, res, next) {
         // Parse the page number
         var pageParam = req.params.page !== undefined ? parseInt(req.params.page, 10) : 1,

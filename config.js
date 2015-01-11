@@ -39,7 +39,7 @@ config = {
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
         // Change this to your Ghost blogs published URL.
-        url: 'http://localhost:2368',
+        url: 'http://localhost:8000',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
@@ -57,12 +57,17 @@ config = {
         // ```
 
         database: {
-            client: 'sqlite3',
-            connection: {
-                filename: path.join(__dirname, '/content/data/ghost-dev.db')
-            },
-            debug: false
+            client: 'postgres',
+            connection: process.env.DATABASE_URL + '?ssl=true',
         },
+
+        // database: {
+        //     client: 'sqlite3',
+        //     connection: {
+        //         filename: path.join(__dirname, '/content/data/ghost-dev.db')
+        //     },
+        //     debug: false
+        // },
         server: {
             host: '127.0.0.1',
             port: process.env.PORT || 2368

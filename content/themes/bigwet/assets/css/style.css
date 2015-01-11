@@ -1,8 +1,4 @@
 .vertical {
-    background: #C8F0F8;
-}
-
-.home-template {
-    /*background: #F5FFE7;*/
-    background: #F9FFFA;
+    border-bottom: 4px solid #b698a7; /* magentar*/
+    background: #c3bbbf; /* graytar */
 }

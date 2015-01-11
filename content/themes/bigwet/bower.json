@@ -1,0 +1,14 @@
+{
+  "name": "bigwet_theme",
+  "version": "0.1.0",
+  "homepage": "bigwetrecords.com",
+  "authors": [
+    "Razzi Abuissa <razzi53@gmail.com>"
+  ],
+  "license": "Public Domain",
+  "private": true,
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "gridism": "~0.2.1"
+  }
+}
