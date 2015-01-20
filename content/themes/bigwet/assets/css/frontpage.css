@@ -42,12 +42,9 @@ h1 {
     animation-delay: 0.2s;
 }
 
-img {
+.logo {
+    height: 500px;
     padding: 20px 0px 20px 0px;
-}
-
-.kitten {
-    min-height: 340px;
 }
 
 .soundcloud {
