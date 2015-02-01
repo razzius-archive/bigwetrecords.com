@@ -52,6 +52,11 @@ frontendRoutes = function () {
     router.get('/page/:page/', frontend.homepage);
     router.get('/blog/', frontend.homepage);
     router.get('/', frontend.static('frontpage'));
+
+    // Custom pages
+    router.get('/dat-mango', frontend.static('dat-mango'));
+    router.get('/music', frontend.static('music'));
+    router.get('/linus', frontend.static('linus'));
     router.get('*', frontend.single);
 
     return router;

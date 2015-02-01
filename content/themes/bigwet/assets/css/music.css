@@ -1,0 +1,21 @@
+.main {
+    text-align: center;
+    font-family: helvetica;
+    height: 100%;
+}
+
+.content {
+    max-width: 70%;
+    padding-left: 1em;
+}
+
+.artist {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 200px;
+}
+
+.artists-bar h2 {
+    padding-bottom: 2em;
+}
+
