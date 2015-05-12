@@ -1,0 +1,55 @@
+html, body{
+    height: 100%;
+}
+.cover-photo {
+    height: 40%;
+    min-height: 180px;
+    width: 100%;
+    background: black url(http://i.imgur.com/XUBos7C.jpg)
+    no-repeat center;
+    background-size: cover;
+}
+.back-arrow {
+    float: left;
+    margin: 25px 25px;
+    height: 40px;
+    padding: 0px 15px 0px 10px;
+    border-radius: 3px;
+    line-height: 40px;
+
+    border: rgba(255, 255, 255, .6) 1px solid;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+.main {
+    background-color: white;
+    margin: -100px auto 200px auto;
+    max-width: 800px;
+
+}
+.artist-name {
+    font-size: 4em;
+    margin-left: 20%;
+    text
+}
+.logo {
+    vertical-align: middle;
+    z-index: 100;
+}
+.artist-header {
+    margin-bottom: 2em;
+}
+.content {
+    text-align: center;
+}
+.content a, .content a:visited {
+    text-decoration: none;
+    color: #4A4A4A;
+    transition: color ease 0.3s;
+}
+.content a:hover {
+    color: black;
+}
