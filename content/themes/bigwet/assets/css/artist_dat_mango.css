@@ -1,6 +1,6 @@
 html, body{
     height: 100%;
-}
+/*}
 .cover-photo {
     height: 40%;
     min-height: 180px;
@@ -8,7 +8,7 @@ html, body{
     background: black url(http://i.imgur.com/XUBos7C.jpg)
     no-repeat center;
     background-size: cover;
-}
+}*/
 .back-arrow {
     float: left;
     margin: 25px 25px;
