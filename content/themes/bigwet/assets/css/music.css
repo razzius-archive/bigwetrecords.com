@@ -12,26 +12,22 @@
   /*  padding-left: 1em;*/
     margin: 0 auto;
     margin-left: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black
+    border: 5px solid black;
+
 }
 
 .artist {
     margin-bottom: 5px;
     width: 100%;
     min-height: 200px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black
+    border: 5px solid black;
+    
 }
 
 .artists-bar h2 {
 	width: 100%;
     margin-bottom: 5px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: black
+    border: 5px solid black;
 }
 
 /*.one-fifth {
@@ -54,13 +50,34 @@
     background: white
 
 }
-
-/*.content-package {
-	border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    margin-bottom: 5px;
+/*This is pretty hacked here we should do this better if we keep it. I wanted a border of 5 px around
+each "package" and this stuff worked.*/
+.content-package {
+    border: 5px solid black;
+    margin-bottom: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin-right: -15px;
     padding: 5px;
 
+
 }
-*/
+
+
+.artist-title {
+    border: 5px solid black;
+    margin: 5px;
+
+}
+
+.content-title {
+    border: 5px solid black;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: -31px;
+    height: 30px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
