@@ -3,9 +3,9 @@ html, body{
 }
 .cover-photo {
     height: 40%;
-    min-height: 180px;
+    min-height: 250px;
     width: 100%;
-    background: black url(http://i.imgur.com/1FT7WMB.png)
+    background: black
     no-repeat center;
     background-size: cover;
 }
