@@ -57,6 +57,7 @@ frontendRoutes = function () {
     router.get('/dat-mango', frontend.static('dat-mango'));
     router.get('/music', frontend.static('music'));
     router.get('/linus', frontend.static('linus'));
+    router.get('/tendrillar', frontend.static('tendrillar'));
     router.get('*', frontend.single);
 
     return router;
