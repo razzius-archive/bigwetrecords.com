@@ -5,7 +5,7 @@ html, body{
     height: 40%;
     min-height: 250px;
     width: 100%;
-    background: black
+    background: black 
     no-repeat center;
     background-size: cover;
 }
@@ -28,6 +28,15 @@ html, body{
     background-color: white;
     margin: -100px auto 200px auto;
     max-width: 800px;
+    /*margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-left: 1em;
+    margin: 0 auto;
+    margin-left: 5px;
+    border: 5px solid black;
+    margin-top: -100px;
+    background: white;*/
 
 }
 .artist-name {
@@ -45,8 +54,6 @@ html, body{
 }
 .content {
     text-align: center;
-
-
     max-width: 100%;
   /*  padding-left: 1em;*/
     margin: 0 auto;
@@ -80,3 +87,15 @@ each "package" and this stuff worked.*/
 
 }
 
+/*.artists-bar h2 {
+    width: 20%;
+    margin-bottom: 5px;
+    border: 5px solid black;
+}*/
+
+/*.artist {
+    margin-bottom: 5px;
+    width: 20%;
+    min-height: 200px;
+    border: 5px solid black;
+*/

@@ -67,6 +67,12 @@ each "package" and this stuff worked.*/
 .artist-title {
     border: 5px solid black;
     margin: 5px;
+    padding-top: 0px;
+    padding-bottom: -5px;
+    height: 30px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: sans-serif;
 
 }
 
@@ -80,4 +86,8 @@ each "package" and this stuff worked.*/
     font-weight: bold;
     font-family: sans-serif;
 
+}
+
+a:link {
+    text-decoration: none;
 }
