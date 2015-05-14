@@ -5,8 +5,7 @@ html, body{
     height: 40%;
     min-height: 250px;
     width: 100%;
-    background: black 
-    no-repeat center;
+    background: black; 
     background-size: cover;
 }
 .back-arrow {
