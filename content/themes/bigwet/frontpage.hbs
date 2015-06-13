@@ -10,12 +10,12 @@
 <body>
     <div class="main wrap">
         <h1>THE BIG WET<h1>
-        <h1 id="records">RECORDS</h1>
+        <h1 class="fade-out" id="records">RECORDS</h1>
         <div>
-           <h2 id="watching">IS WATCHING</h2>
-           <h2 id="tv">TV</h2>
+           <h2 class="fade-in" id="watching">IS WATCHING</h2>
+           <h2 class="fade-in" id="tv">TV</h2>
         </div>
-        <img class="logo" src="http://i.imgur.com/fKJK0Zx.jpg">
+        <img class="logo fade-in" src="http://i.imgur.com/fKJK0Zx.jpg">
         <div class="grid">
             <offset class="unit one-fifth"></offset>
             <a class="unit one-fifth" href="/music">MUSIC</a>
@@ -31,4 +31,34 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    var fade_ins = document.querySelectorAll('.fade-in');
+    var fade_outs = document.querySelectorAll('.fade-out');
+
+    var pfx = ["webkit", "moz", "MS", "o", ""];
+    function prefixedEventListener(element, type, callback) {
+        for (var p = 0; p < pfx.length; p++) {
+            if (!pfx[p]) {
+                type = type.toLowerCase();
+            }
+
+            element.addEventListener(pfx[p]+type, callback, false);
+        }
+    }
+
+    [].forEach.call(fade_ins, function(e) {
+        prefixedEventListener(e,"AnimationEnd",function(e){
+            console.log('in');
+            e.target.className = 'opaque ' + e.target.className;
+        });
+    });
+
+    [].forEach.call(fade_outs, function(e) {
+        prefixedEventListener(e,"AnimationEnd",function(e){
+            console.log('out');
+            e.target.className = 'transparent ' + e.target.className;
+        });
+    });
+
+</script>
 </html>

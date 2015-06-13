@@ -11,6 +11,14 @@ a {
     text-decoration: none;
 }
 
+.opaque {
+    opacity: 1 !important;
+}
+
+.transparent {
+    opacity: 0 !important;
+}
+
 @-webkit-keyframes fade-in {
     100% {
         opacity: 1;
@@ -43,16 +51,6 @@ h1 {
     margin: 0px;
 }
 
-.logo {
-    opacity: 0;
-    -webkit-animation: fade-in 8s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    animation: fade-in 8s;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
-
 .soundcloud {
     width: 40px;
     padding-top: 5px;
@@ -62,6 +60,7 @@ h1 {
 .soundcloud:hover {
     opacity: 1;
 }
+
 img.logo {
     width: 50vh;
     height: 50vh;
@@ -76,30 +75,44 @@ h1 {
     display: inline;
 }
 
+.logo {
+    opacity: 0;
+    -webkit-animation: fade-in 8s;
+    animation-fill-mode: forwards;
+    animation: fade-in 8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-iteration-count: 1;
+    -animation-iteration-count: 1;
+}
+
 #records {
     -webkit-animation: fade-out 4s;
     animation: fade-out 4s;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 
 #watching {
     opacity: 0;
     -webkit-animation: fade-in 5s;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation: fade-in 5s;
     -webkit-animation-delay: 10s;
     animation-delay: 10s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
 #tv {
     opacity: 0;
     -webkit-animation: fade-in 5s;
-    -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
     animation: fade-in 5s;
     -webkit-animation-delay: 19s;
     animation-delay: 19s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
 }
