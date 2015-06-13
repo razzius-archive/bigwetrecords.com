@@ -54,10 +54,11 @@ frontendRoutes = function () {
     router.get('/', frontend.static('frontpage'));
 
     // Custom pages
-    router.get('/dat-mango', frontend.static('dat-mango'));
+    router.get('/music/dat-mango', frontend.static('music/dat-mango'));
+    router.get('/music/linus', frontend.static('music/linus'));
+    router.get('/music/tendrillar', frontend.static('music/tendrillar'));
     router.get('/music', frontend.static('music'));
-    router.get('/linus', frontend.static('linus'));
-    router.get('/tendrillar', frontend.static('tendrillar'));
+    router.get('/about', frontend.static('about'));
     router.get('*', frontend.single);
 
     return router;
