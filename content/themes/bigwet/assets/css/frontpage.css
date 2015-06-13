@@ -1,54 +1,105 @@
+body {
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
 a {
     font-size: 1.4em;
-    /*color: #6E4464;  deep purple */
     text-decoration: none;
 }
 
-@-webkit-keyframes fade-in-down {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
+@-webkit-keyframes fade-in {
     100% {
         opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
     }
 }
-@keyframes fade-in-down {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-10px);
-        transform: translateY(-10px);
-    }
+@keyframes fade-in {
     100% {
         opacity: 1;
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes fade-out {
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes fade-out {
+    100% {
+        opacity: 0;
     }
 }
 
 .main {
-    margin-top: 5em;
+    margin-top: 3em;
     text-align: center;
     font-family: helvetica;
 }
 
 h1 {
-    -webkit-animation: fade-in-down 0.6s;
-    animation: fade-in-down 0.6s;
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    margin: 0px;
 }
 
 .logo {
-    height: 500px;
-    padding: 20px 0px 20px 0px;
+    opacity: 0;
+    -webkit-animation: fade-in 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation: fade-in 8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .soundcloud {
     width: 40px;
     padding-top: 5px;
-    transition: color ease 0.3s;
+    opacity: .8;
+    transition: opacity 0.3s ease;
+}
+.soundcloud:hover {
+    opacity: 1;
+}
+img.logo {
+    width: 50vh;
+    height: 50vh;
+}
+
+h2 {
+    display: inline;
+    margin: 3px;
+}
+
+h1 {
+    display: inline;
+}
+
+#records {
+    -webkit-animation: fade-out 4s;
+    animation: fade-out 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+#watching {
+    opacity: 0;
+    -webkit-animation: fade-in 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation: fade-in 5s;
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+#tv {
+    opacity: 0;
+    -webkit-animation: fade-in 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    animation: fade-in 5s;
+    -webkit-animation-delay: 19s;
+    animation-delay: 19s;
 }
