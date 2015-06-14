@@ -1,6 +1,5 @@
 .main {
     text-align: center;
-    font-family: helvethtica;
     height: 40%;
     min-height: 250px;
     width: 100%;
@@ -9,7 +8,6 @@
 
 .content {
     max-width: 60%;
-  /*  padding-left: 1em;*/
     margin: 0 auto;
     margin-left: 5px;
     border: 5px solid black;
@@ -21,7 +19,7 @@
     width: 100%;
     min-height: 200px;
     border: 5px solid black;
-    
+
 }
 
 .artists-bar h2 {
@@ -29,12 +27,6 @@
     margin-bottom: 5px;
     border: 5px solid black;
 }
-
-/*.one-fifth {
-	border-style: solid;
-    border-width: 5px;
-    border-color: black
-}*/
 
 .content-header {
     margin-top: -40px;
@@ -44,7 +36,7 @@
     margin-bottom: 5px;
     margin-left: 25%;
     background: white;
-    
+
 
 }
 /*This is pretty hacked here we should do this better if we keep it. I wanted a border of 5 px around
@@ -70,7 +62,6 @@ each "package" and this stuff worked.*/
     font-size: 150%;
     font-weight: bold;
     font-family: sans-serif;
-
 }
 
 .content-title {
@@ -99,6 +90,6 @@ a:link {
     height: 40%;
     min-height: 250px;
     width: 100%;
-    background: black; 
+    background: black;
     background-size: cover;
 }
