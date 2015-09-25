@@ -55,7 +55,14 @@ frontendRoutes = function () {
 
     // Custom pages
     router.get('/music/dat-mango', frontend.static('music/dat-mango'));
+    router.get('/music/iceface', frontend.static('music/iceface'));
+    router.get('/music/johann', frontend.static('music/johann'));
     router.get('/music/linus', frontend.static('music/linus'));
+    router.get('/music/martin', frontend.static('music/martin'));
+    router.get('/music/micky-hardaway', frontend.static('music/micky-hardaway'));
+    router.get('/music/notya', frontend.static('music/notya'));
+    router.get('/music/sherman-lurch', frontend.static('music/sherman-lurch'));
+    router.get('/music/some-mirror', frontend.static('music/some-mirror'));
     router.get('/music/tendrillar', frontend.static('music/tendrillar'));
     router.get('/music', frontend.static('music'));
     router.get('/about', frontend.static('about'));

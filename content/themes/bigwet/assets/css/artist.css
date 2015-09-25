@@ -23,6 +23,21 @@ html, body{
     font-size: 12px;
     text-decoration: none;
 }
+.black-back-arrow {
+    float: left;
+    margin: 25px 25px;
+    height: 40px;
+    padding: 0px 15px 0px 10px;
+    border-radius: 3px;
+    line-height: 40px;
+
+    border: rgba(0, 0, 0, .6) 1px solid;
+
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+}
 .main {
     background-color: white;
     margin: -100px auto 200px auto;
@@ -39,13 +54,16 @@ html, body{
 
 }
 .artist-name {
-    font-size: 4em;
-    margin-left: 20%;
+    font-size: 3em;
+   /*margin-left: 10%;*/
     text
 }
 .logo {
     vertical-align: middle;
     z-index: 100;
+    width: 200px;
+    height: 200px;
+
 }
 .artist-header {
     margin-bottom: 2em;
@@ -57,7 +75,7 @@ html, body{
   /*  padding-left: 1em;*/
     margin: 0 auto;
     margin-left: 5px;
-    border: 5px solid black;
+  /*  border: 5px solid black;*/
 }
 .content a, .content a:visited {
     text-decoration: none;
@@ -69,32 +87,10 @@ html, body{
 }
 
 .content-header {
-    border: 5px solid black;
+ /*   border: 5px solid black;*/
     margin: 5px;
 }
 
-/*This is pretty hacked here we should do this better if we keep it. I wanted a border of 5 px around
-each "package" and this stuff worked.*/
-.content-package {
-    border: 5px solid black;
-    /*margin-bottom: 10px;
-    margin-left: 5px;
-    margin-top: -5px;
-    margin-right: -15px;*/
-    margin: 5px;
-    padding: 5px;
-
+.content-package{
+    margin-bottom: 4em;
 }
-
-/*.artists-bar h2 {
-    width: 20%;
-    margin-bottom: 5px;
-    border: 5px solid black;
-}*/
-
-/*.artist {
-    margin-bottom: 5px;
-    width: 20%;
-    min-height: 200px;
-    border: 5px solid black;
-*/
