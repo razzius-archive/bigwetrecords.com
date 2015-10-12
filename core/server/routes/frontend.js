@@ -54,6 +54,7 @@ frontendRoutes = function () {
     router.get('/', frontend.static('frontpage'));
 
     // Custom pages
+    router.get('/music/bando-brando', frontend.static('music/bando-brando'));
     router.get('/music/dat-mango', frontend.static('music/dat-mango'));
     router.get('/music/iceface', frontend.static('music/iceface'));
     router.get('/music/johann', frontend.static('music/johann'));
