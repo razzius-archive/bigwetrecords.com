@@ -64,6 +64,7 @@ frontendRoutes = function () {
     router.get('/music/notya', frontend.static('music/notya'));
     router.get('/music/sherman-lurch', frontend.static('music/sherman-lurch'));
     router.get('/music/some-mirror', frontend.static('music/some-mirror'));
+    router.get('/music/t-wreks', frontend.static('music/t-wreks'));
     router.get('/music/tendrillar', frontend.static('music/tendrillar'));
     router.get('/music', frontend.static('music'));
     router.get('/about', frontend.static('about'));
