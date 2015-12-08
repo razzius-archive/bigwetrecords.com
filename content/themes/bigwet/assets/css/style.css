@@ -49,11 +49,22 @@
   margin: 5px;
   padding-top: 0px;
   padding-bottom: -5px;
-  height: 30px;
-  font-size: 1em;
+  height: 10px;
+  font-size: vh;
+  display: inline-block;
   font-weight: bold;
   font-family: sans-serif;
 }
+
+.small-artist-title {
+  margin: auto;
+  padding-top: 0px;
+  padding-bottom: 8%;
+  height: 10px;
+  font-size: vh;
+  font-weight: bold;
+  font-family: sans-serif;
+  }
 
 .content-title {
   margin: 0px;

@@ -39,24 +39,26 @@ html, body{
     text-decoration: none;
 }
 .main {
-    background-color: white;
+    /*background-color: white;*/
     margin: -100px auto 200px auto;
     max-width: 800px;
-    /*margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    padding-left: 1em;
-    margin: 0 auto;
-    margin-left: 5px;
-    border: 5px solid black;
-    margin-top: -100px;
-    background: white;*/
+    position: relative;
+
+}
+
+.background{
+    z-index: -1;
+    position: fixed;
+    margin: 0px auto 300px auto;
+    top: 0;
+    width: 100%;
+    height: 100%`;
 
 }
 .artist-name {
     font-size: 3em;
    /*margin-left: 10%;*/
-    text
+
 }
 .logo {
     vertical-align: middle;
@@ -74,13 +76,14 @@ html, body{
 .artist-header {
     margin-bottom: 2em;
     border: 5px solid black;
+    background-color: white;
 }
 .content {
     text-align: center;
     max-width: 100%;
   /*  padding-left: 1em;*/
-    margin: 0 auto;
-    margin-left: 5px;
+    margin: auto;
+/*    margin-left: 5px;*/
   /*  border: 5px solid black;*/
 }
 .content a, .content a:visited {

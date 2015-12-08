@@ -54,7 +54,9 @@ frontendRoutes = function () {
     router.get('/', frontend.static('frontpage'));
 
     // Custom pages
+    router.get('/music/2kl8', frontend.static('music/2kl8'));
     router.get('/music/bando-brando', frontend.static('music/bando-brando'));
+    router.get('/music/caleb-carnell', frontend.static('music/caleb-carnell'));
     router.get('/music/dat-mango', frontend.static('music/dat-mango'));
     router.get('/music/iceface', frontend.static('music/iceface'));
     router.get('/music/johann', frontend.static('music/johann'));
@@ -63,9 +65,9 @@ frontendRoutes = function () {
     router.get('/music/micky-hardaway', frontend.static('music/micky-hardaway'));
     router.get('/music/notya', frontend.static('music/notya'));
     router.get('/music/sherman-lurch', frontend.static('music/sherman-lurch'));
-    router.get('/music/some-mirror', frontend.static('music/some-mirror'));
     router.get('/music/t-wreks', frontend.static('music/t-wreks'));
     router.get('/music/tendrillar', frontend.static('music/tendrillar'));
+    router.get('/music/the-island', frontend.static('music/the-island'));
     router.get('/music', frontend.static('music'));
     router.get('/about', frontend.static('about'));
     router.get('*', frontend.single);
